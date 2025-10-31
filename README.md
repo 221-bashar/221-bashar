@@ -52,9 +52,8 @@
 
 ---
 ## 🎯 Goals for 2025
-- ✅ Earn **eJPTv2** and **CCNA** certifications  
-- 🧠 Build an **AI-based Red Team simulation tool**  
-- 🤝 Contribute to **open-source cybersecurity projects**
+  - 🧠 Build an **AI-based Red Team simulation tool**  
+
 
 ---
 ## 🎯 Goals for 2026
