@@ -1,132 +1,115 @@
-# 💫 About Me
-
-👋 Hi, I'm **Bashar Khatib** — a Software Engineering Student focused on backend development, systems programming, and foundational cybersecurity skills. I enjoy working close to the operating system using C, and building practical tools with Python. Alongside my degree, I am expanding my knowledge in networking, Linux, and security engineering.
-
----
-
+## 💫 About Me
+ 
+👋 Hi, I'm **Bashar Khatib**, a Software Engineering student at the Open University of Israel focused on **cloud & runtime security, detection engineering, and systems programming**.
+I like working close to the operating system in C, building practical security tools in Python, and running them in containers. Alongside my degree I'm completing two full-year bootcamps: **Cyber Security** and **DevOps / Backend** (through Jan 2027).
+ 
 ## 🔎 Interests
-
-- Backend & API development
-- Systems programming & OS internals
-- Networking and cybersecurity engineering
-- Linux administration & automation
-
----
-
+ 
+- Cloud & Kubernetes security, runtime threat detection
+- Systems programming & OS internals (Linux kernel, xv6)
+- Networking and blue-team / SOC operations
+- Backend microservices, CI/CD and Linux automation
 ## 🧩 Skills
-
+ 
 | Category | Details |
 |---|---|
-| **Languages** | C, Java, Python, JavaScript (basic), HTML & CSS |
-| **Core Knowledge** | Data structures, algorithms, Linux systems, network fundamentals |
-| **Tools & Platforms** | Linux, Git, VS Code, Eclipse, VMware, Cisco Packet Tracer |
-| **Networking** | VLANs, OSPF, NAT, ACLs, Cisco/CCNA concepts |
-| **Security** | Active Directory, GPO hardening, log analysis, brute-force detection, AI guardrail testing |
-
----
-
-## 📚 Currently Learning
-
-- CCNA networking fundamentals
-- Python scripting for automation and security analysis
-- Cybersecurity basics (eJPTv2 preparation)
-
----
-
+| **Security & Detection** | Rule-based detection logic, Linux auth-log analysis, brute-force & intrusion detection, security event monitoring, SOC & threat-intel fundamentals, web app security, Active Directory & GPO hardening, AI guardrail testing |
+| **Containers & DevOps** | Docker, Docker Compose, Kubernetes, Jenkins, CI/CD pipelines, VMware |
+| **Operating Systems** | Linux administration & automation, process & memory management, system calls, xv6 kernel development, Windows Server 2016, GDB, GCC, Make |
+| **Networking** | TCP/IP, VLANs, OSPF, NAT, ACLs, network segmentation, Cisco Packet Tracer, CCNA concepts |
+| **Languages** | Python, Bash / Shell, C (advanced, systems level), Java, SQL, JavaScript (basic), HTML & CSS |
+| **Tools & Data** | Git & GitHub, SQL, PostgreSQL, pytest, ClickUp, VS Code, PyCharm, Eclipse |
+ 
+## 📚 Currently Learning (through Jan 2027)
+ 
+- ☁️ **Cloud & DevOps:** AWS Cloud, CI/CD, microservices virtualization & deployment, Spring Cloud, configuration management
+- 🔌 **Backend:** Spring Boot, Spring Security, JPA / Hibernate & Spring Data, Kafka streaming, OpenFeign, Postman & Swagger
+- 🗄️ **Data & Workflow:** JDBC, MySQL, MongoDB, Jira, Agile
+- 🔐 **Certifications:** eJPTv2 and CCNA (in progress)
 ## 🛠 Projects
-
+ 
+### 🔐 Security & Detection
+ 
+**[Log Analysis API: Intrusion Detection Service](https://github.com/221-bashar/log-analysis-api)**
+A containerised REST API that parses Linux auth logs, detects brute-force and intrusion patterns with rule-based anomaly detection, and shows alerts on a web dashboard. `Python` `REST` `Docker`
+ 
+**Linux Auth Log Analyzer**
+A Python tool that parses Linux authentication logs to detect brute-force patterns and flag suspicious user behaviour. Part of a broader cybersecurity mini-projects portfolio. `Python`
+ 
+**[ForgeLab: Active Directory Domain Lab](https://github.com/221-bashar/forgelab-domain-lab)**
+A full AD domain in VMware with Windows Server 2016 and Windows 10 clients: OU design, group permissions, DNS/DHCP, hardened GPOs and security event monitoring from a blue-team perspective. `VMware` `Windows Server`
+ 
+**TechNova Windows Server Lab**
+Automated and hardened a Windows Server 2016 environment (AD, DNS, DHCP) with security policies enforced through Group Policy Objects. `Windows Server` `GPO`
+ 
+**Cybersecurity Assistant: AI Guardrail Tester**
+Stress-tests a security-focused AI assistant against jailbreaks, social engineering and data-extraction prompts, then implements and evaluates guardrails. `Python`
+ 
 ### ⚙️ Systems Programming
-
-**[Assembler in C](https://github.com/221-bashar/assembler-c-project)**
-> A two-pass assembler written in C for a custom assembly language, developed as part of a university Systems Programming Lab. Implements macro preprocessing, symbol table generation, instruction encoding, and produces `.ob`, `.ext`, and `.ent` output files.
-
-**[xv6 OS Labs](https://github.com/221-bashar/xv6-03-53)**
-> Operating system modifications and extensions on the xv6 Unix-like kernel, completed as part of OS coursework. Covers process management, system calls, and low-level memory concepts.
-> → [xv6-03](https://github.com/221-bashar/xv6-03-53) · [xv6-02](https://github.com/221-bashar/xv6-02-53)
-
----
-
-### 🐧 Linux & Automation
-
+ 
+**xv6 OS Labs:** [xv6-02](https://github.com/221-bashar/xv6-02) · [xv6-03](https://github.com/221-bashar/xv6-03)
+Extensions to the xv6 Unix-like kernel: process management, new system calls and memory handling. `C` `Linux`
+ 
+**[Two-Pass Assembler in C](https://github.com/221-bashar/assembler-c-project)**
+Assembler for a custom assembly language with macro preprocessing, symbol tables, instruction encoding and `.ob` / `.ext` / `.ent` output. `C` `GDB`
+ 
+### 🐧 Linux, Networking & Automation
+ 
 **[Northstar Labs Operations Toolkit](https://github.com/221-bashar/lf_final_project)**
-> A shell-based automation toolkit built as the final project of a Linux Fundamentals track. Focuses on scripting real operational workflows in a Linux environment.
-
----
-
-### 🔌 Backend & APIs
-
-**[Log Analysis API](https://github.com/221-bashar/log-analysis-api)**
-> A Python-based REST API for structured log inspection and validation. Designed for system evaluation workflows, enabling programmatic log querying and anomaly identification.
-
----
-
-### 🔐 Cybersecurity
-
-**[Linux Auth Log Analyzer](https://github.com/221-bashar/cybersecurity-mini-projects-portfolio)**
-> A Python tool that parses Linux authentication logs to detect brute-force attack patterns and flag suspicious user behavior. Part of a broader cybersecurity mini-projects portfolio.
-
-**[Cybersecurity Assistant – AI Guardrail Tester](https://github.com/221-bashar/cybersecurity-assistant)**
-> Simulates a cybersecurity-focused AI assistant and stress-tests it against adversarial prompts including jailbreak attempts, social engineering scenarios, and sensitive data extraction. Focuses on implementing and evaluating safety guardrails.
-
-**[TechNova Windows Server Lab](https://github.com/221-bashar/TechNova-Windows-Server-Lab)**
-> Automated and hardened a Windows Server 2016 environment featuring Active Directory, DNS, DHCP, and enforced security policies via Group Policy Objects (GPOs). Emphasizes infrastructure automation and endpoint hardening.
-
-**[ForgeLab – Active Directory Domain Lab](https://github.com/221-bashar/forgelab-domain-lab)**
-> Built a full Active Directory domain environment in VMware using Windows Server 2016 and Windows 10 clients. Includes domain configuration, Organizational Unit (OU) design, group permission management, and security event monitoring.
-
+Shell automation toolkit scripting real Linux operational workflows. Final project of the Linux Fundamentals automation track. `Bash`
+ 
+**[netmon-autotest](https://github.com/221-bashar/netmon-autotest)**
+Test automation suite that simulates network-switch telemetry and runs regression checks with pytest. `Python` `pytest`
+ 
 **[Enterprise Network Configuration Lab](https://github.com/221-bashar/221-bashar-Final-Network-Configuration-Lab)**
-> Designed and simulated an enterprise network topology in Cisco Packet Tracer with VLANs, OSPF dynamic routing, NAT, and Access Control Lists (ACLs) for traffic security and segmentation.
-
----
-
+Multi-site enterprise topology with VLAN segmentation, OSPF routing, NAT and ACL-based traffic control. `Cisco Packet Tracer`
+ 
+### 📓 Learning Vaults
+ 
+- **[cyber-security-vault](https://github.com/221-bashar/cyber-security-vault):** notes, scripts and labs from the Cyber Security bootcamp
+- **[devops-backend-vault](https://github.com/221-bashar/devops-backend-vault):** notes and exercises from the DevOps / Backend bootcamp
 ## 🎯 Goals
-
-- Establish strong backend + security engineering foundations
-- Complete CCNA and eJPTv2 certifications
-- Build a portfolio that demonstrates real-world capability in systems programming, Linux, networking, and cybersecurity
-
----
-
+ 
+- Grow into a **cloud security / detection engineering** role
+- Deploy my detection projects on **AWS and Kubernetes**
+- Complete **eJPTv2** and **CCNA**
+- Build a portfolio that shows real-world skill in security, systems programming, Linux and cloud
 ## 🌐 Socials
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/bashar-khatib-a0a896146/)
-[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/221-bashar)
-
----
-
+ 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/bashar-khatib-a0a896146)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/221-bashar)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kh.bashar.221@gmail.com)
+ 
 ## 💻 Tech Stack
-
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-![VMware](https://img.shields.io/badge/VMware-607078?style=for-the-badge&logo=vmware&logoColor=white)
-![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black)
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
-
----
-
+ 
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![VMware](https://img.shields.io/badge/VMware-607078?style=flat-square&logo=vmware&logoColor=white)
+![Cisco](https://img.shields.io/badge/Cisco-1BA0D7?style=flat-square&logo=cisco&logoColor=white)
+ 
+**Learning next:**
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+ 
 ## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=221-bashar&theme=dark&hide_border=false&include_all_commits=true&count_private=false" alt="GitHub Stats" />
-  <br/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=221-bashar&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="Top Languages" />
-</p>
-
+ 
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=221-bashar&show_icons=true&theme=default)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=221-bashar&layout=compact)
+ 
 ---
-
-## 🏆 GitHub Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=221-bashar&theme=dark&no-frame=false&no-bg=false&margin-w=4" alt="GitHub Trophies" />
-</p>
-
----
-
-*Last updated: June 2026*
+*Last updated: September 2026*
